@@ -21,12 +21,12 @@ export default {
       },
       name: "Bruno",
       pictures: [
-        {name: "Bruno 1", path: "./src/assets/pic1.png"},
-        {name: "Bruno 2", path: "./src/assets/pic2.png"},
-        {name: "Bruno 3", path: "./src/assets/pic3.png"},
-        {name: "Bruno 4", path: "./src/assets/pic4.png"},
-        {name: "Bruno 5", path: "./src/assets/pic5.png"},
-        {name: "Bruno 6", path: "./src/assets/pic6.png"},
+        {name: "Bruno 1", path: new URL("@/assets/pic1.png", import.meta.url).href},
+        {name: "Bruno 2", path: new URL("@/assets/pic2.png", import.meta.url).href},
+        {name: "Bruno 3", path: new URL("@/assets/pic3.png", import.meta.url).href},
+        {name: "Bruno 4", path: new URL("@/assets/pic4.png", import.meta.url).href},
+        {name: "Bruno 5", path: new URL("@/assets/pic5.png", import.meta.url).href},
+        {name: "Bruno 6", path: new URL("@/assets/pic6.png", import.meta.url).href},
       ],
       warnings: [
         "Allergic to Chicken",
@@ -55,12 +55,12 @@ export default {
     />
     <div v-show=email class="email-wrapper">
       <a :href=email target=”_blank”>
-        <img src="/src/assets/email.png" alt="send email" class="email"/>
+        <img src="@/assets/email.png" alt="send email" class="email"/>
       </a>
     </div>
     <div v-show=whatsapp class="whatsapp-wrapper">
       <a :href=whatsapp target=”_blank”>
-        <img src="/src/assets/whatsapp.png" alt="whatsapp" class="whatsapp"/>
+        <img src="@/assets/whatsapp.png" alt="whatsapp" class="whatsapp"/>
       </a>
     </div>
   </div>
