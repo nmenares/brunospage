@@ -1,5 +1,5 @@
 <script>
-import TheInfo from './TheInfo.vue';
+import TheInfo from '../components/TheInfo.vue';
 
 export default {
   data() {
