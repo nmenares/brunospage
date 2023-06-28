@@ -37,4 +37,3 @@ This project is licensed under the MIT License.
 
 ### Acknowledgments
 The Vue.js and Vite communities for their amazing tools and resources.
-
