@@ -21,12 +21,12 @@ export default {
       },
       name: "Bruno",
       pictures: [
-        {name: "Bruno 1", path: "/src/assets/pic1.png"},
-        {name: "Bruno 2", path: "/src/assets/pic2.png"},
-        {name: "Bruno 3", path: "/src/assets/pic3.png"},
-        {name: "Bruno 4", path: "/src/assets/pic4.png"},
-        {name: "Bruno 5", path: "/src/assets/pic5.png"},
-        {name: "Bruno 6", path: "/src/assets/pic6.png"},
+        {name: "Bruno 1", path: "./src/assets/pic1.png"},
+        {name: "Bruno 2", path: "./src/assets/pic2.png"},
+        {name: "Bruno 3", path: "./src/assets/pic3.png"},
+        {name: "Bruno 4", path: "./src/assets/pic4.png"},
+        {name: "Bruno 5", path: "./src/assets/pic5.png"},
+        {name: "Bruno 6", path: "./src/assets/pic6.png"},
       ],
       warnings: [
         "Allergic to Chicken",
