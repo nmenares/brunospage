@@ -29,7 +29,7 @@ export default {
       <div class="social-container">
         <a class="instagram-link" :href=instagram.url target=”_blank”
           >
-          <img src="src/assets/instagram.png" alt="Pet's instagram"/>
+          <img src="/instagram.png" alt="Pet's instagram"/>
           {{ instagram.name }}
         </a>
       </div>
