@@ -52,11 +52,11 @@ export default {
   border-radius: 5px;
 }
 .warning-container {
-  background-color:#affffc;
+  background-color:#affff7;
   margin-top: 0.5rem;
 }
 .social-container {
-  background-color:#ffafe4;
+  background-color:#afb3ff;
   margin-top: 0.5rem;
 }
 .highlight {
