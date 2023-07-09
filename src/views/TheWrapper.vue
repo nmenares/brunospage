@@ -33,7 +33,7 @@ export default {
         "Many reverse sneezes due to pollen",
         "Don't chase, call him and wait for him",
       ],
-      whatsapp: "https://wa.me/+16502792925",
+      whatsapp: "https://wa.me/+16506792925",
       email: "mailto: nataly.menares@gmail.com"
     }
   },
