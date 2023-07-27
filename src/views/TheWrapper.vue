@@ -5,7 +5,8 @@ export default {
   data() {
     return {
       info: {
-        Phone: "+1 (650) 679-2925",
+        Main_Phone: "+1 (650) 250-6864",
+        Backup_Phone: "+1 (650) 679-2925",
         DOB: "October 31st, 2021",
         Microchip: "98102-00432-62588",
         Class: "Canine",
@@ -13,7 +14,7 @@ export default {
         Sex: "Male, neutered",
         Weight: "16 pounds",
         Hair: "Yellow",
-        Eyes: "Green",
+        Eyes: "Hazel",
       },
       instagram: {
         name: "@ItsBrunoPerruno",
@@ -31,9 +32,8 @@ export default {
       warnings: [
         "Allergic to Chicken",
         "Many reverse sneezes due to pollen",
-        "Don't chase, call him and wait for him",
       ],
-      whatsapp: "https://wa.me/+16506792925",
+      whatsapp: "https://wa.me/+16502506864",
       email: "mailto: nataly.menares@gmail.com"
     }
   },

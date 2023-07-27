@@ -11,6 +11,11 @@ export default {
   components: {
     ThePictures,
   },
+  methods: {
+    getkey(key){
+      return key.replace("_", " ");
+    },
+  },
 }
 </script>
 
@@ -20,7 +25,7 @@ export default {
     <div class="info">
       <div class="contact-container">
         <h4 v-for="(item, key) in info" :key=key>
-          <span class="highlight">{{ key }}:</span> {{ item }}
+          <span class="highlight">{{ getkey(key) }}:</span> {{ item }}
         </h4>
       </div>
       <div class="warning-container">
