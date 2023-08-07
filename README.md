@@ -1,6 +1,7 @@
 ## My Dog Project
 
 This is a simple Vue 3 project built with Vite that contains important information about my dog and how to contact me if he gets lost.
+[DEMO](https://nmenares.github.io/brunospage/)
 
 ## Project Setup
 
