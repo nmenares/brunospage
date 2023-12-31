@@ -5,8 +5,6 @@ export default {
   data() {
     return {
       info: {
-        Main_Phone: "+1 (650) 250-6864",
-        Backup_Phone: "+1 (650) 679-2925",
         DOB: "October 31st, 2021",
         Microchip: "98102-00432-62588",
         Class: "Canine",
@@ -31,7 +29,7 @@ export default {
       ],
       warnings: [
         "Allergic to Chicken",
-        "Many reverse sneezes due to pollen",
+        "Water hater"
       ],
       whatsapp: "https://wa.me/+16502506864",
       email: "mailto: nataly.menares@gmail.com"
